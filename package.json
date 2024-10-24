@@ -1,0 +1,21 @@
+{
+	"name": "monorepo",
+	"type": "module",
+	"scripts": {
+		"check": "biome check . --write"
+	},
+	"config": {
+  "commitizen": {
+    "path": "./node_modules/cz-conventional-changelog"
+  }
+},
+
+	"packageManager": "yarn@1.22.22",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@commitlint/cli": "^19.5.0",
+		"@commitlint/config-conventional": "^19.5.0",
+		"lefthook": "^1.8.0",
+		"turbo": "^2.1.3"
+	}
+}
